@@ -32,6 +32,14 @@
   gap: 10px;
 }
 
+.suporte-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+
 .seta-menu {
   width: 20px;
   height: 25px;
