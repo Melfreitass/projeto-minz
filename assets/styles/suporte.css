@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.barra-menu {
+  width: 100%;
+  height: 93px;
+  background-color: #0c0000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.minz-menu {
+  margin: 17px;
+  margin-left: 30px;
+  font-size: 25px;
+  color: white;
+  font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navegacao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.suporte-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.seta-menu {
+  width: 20px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.barra-pesquisa {
+  background-color: #0c0000;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  width: 544px;
+}
+
+.barra-pesquisa input[type="text"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  padding-right: 35px;
+}
+
+.barra-pesquisa input[type="text"]::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+.icones-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone-devs {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.carrinho-compras {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.icone-usuario {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.secoes {
+  font-size: 15px;
+  width: 100%;
+  height: 55px;
+  background-color: #e5c9cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.acessorios,
+.moda-feminina,
+.moda-masculina,
+.perfumes,
+.infantil {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Suporte Section */
+.quadrado-titulo {
+    width: 300px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    margin-top: 30px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    word-wrap: break-word;
+}
+
+.titulo-suporte {
+    font-family: 'Gloock', serif;
+    font-weight: 1;
+    font-size: 25px;
+    color: #0C0000;
+    letter-spacing: 1px;
+}
+
+.subtitulo-suporte {
+    font-family: 'Gloock', serif;
+    font-weight: 1;
+    font-size: 20px;
+    color: #847878;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.containers-suporte {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.container-email {
+    width: 250px;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-email {
+    width: 61px;
+    height: 61px;
+}
+
+.texto-email {
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0C0000;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.endereco-email {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0C0000;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container-telefone {
+    width: 250px;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-telefone {
+    width: 50px;
+    height: 50px;
+}
+
+.texto-telefone {
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0C0000;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.texto-numero {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0C0000;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container-chat {
+    width: 250px;
+    height: 150px;
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-chat {
+    width: 61px;
+    height: 61px;
+}
+
+.texto-chat {
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0C0000;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.texto-instagram {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0C0000;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.manequins {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+}
+
+.arara-de-roupas {
+    width: 400px;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.conjunto-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.moda-manequins {
+    width: 130px;
+    height: 102px;
+    border-radius: 20px;
+}
+
+.modelos-book {
+    width: 130px;
+    height: 102px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+.desfile {
+    width: 130px;
+    height: 102px;
+    border-radius: 20px;
+    margin-left: 3px;
+}
