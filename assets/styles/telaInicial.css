@@ -15,12 +15,16 @@ header {
 
 main {
     display: flex;
+    align-items: flex-start; 
+    gap: 20px;
 }
 
 #colecaoVerao {
-    width: 950px;
-    height: 383.62701908957416px;
-    margin: 60px;
+    width: 50%;
+    max-width: 950px;
+    height: auto;
+    aspect-ratio: 950/383.62701908957416;
+    margin: 60px auto;
     background-image: url("../images/colecao-verao.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,27 +34,33 @@ main {
 }
 
 .titulo-verao{
-    font-size: 128px;
+    font-size: 9vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
-    margin: 100px;
+    margin: 4vw;
 }
 
 #monteSeuLook {
-    width: 345px;
-    height: 145px;
-    margin: 60px;
+    width: 30%;
+    max-width: 345px;
+    height: auto;
+    aspect-ratio: 345/145;
+    margin: 60px auto;
+    margin-left: 10px;
     background-image: url("../images/monte-seu-look.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
 .titulo-monteSeuLook{
-    font-size: 32px;
+    font-size: 2.5vw;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
-    margin: 45px;
+    margin: 3.5vw;
 }
+
