@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #fbfbfb;
 }
@@ -16,7 +17,7 @@ header {
 main {
     display: flex;
     align-items: flex-start; 
-    gap: 20px;
+    margin: 4vh;
 }
 
 #colecaoVerao {
@@ -25,6 +26,7 @@ main {
     height: auto;
     aspect-ratio: 950/383.62701908957416;
     margin: 60px auto;
+    margin-right: 40px;
     background-image: url("../images/colecao-verao.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,13 +43,21 @@ main {
     margin: 4vw;
 }
 
+.lado-direito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 60px;
+    margin-right: 150px;
+}
+
 #monteSeuLook {
-    width: 30%;
+    width: 100%;
     max-width: 345px;
     height: auto;
-    aspect-ratio: 345/145;
-    margin: 60px auto;
-    margin-left: 10px;
+    aspect-ratio: 345/133;
+    margin: 0;
+    border-radius: 2vh;
     background-image: url("../images/monte-seu-look.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +70,30 @@ main {
     font-size: 2.5vw;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    margin: 3.5vw;
+}
+
+#promocao {
+    width: 100%;
+    max-width: 345px;
+    height: auto;
+    aspect-ratio: 345/133;
+    margin: 0;
+    border-radius: 2vh;
+    background-image: url("../images/promoções.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-promocao{
+    font-size: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
     margin: 3.5vw;
 }
 
