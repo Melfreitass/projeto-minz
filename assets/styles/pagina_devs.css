@@ -275,3 +275,429 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+.sobre-a-empresa {
+  height: 180px;
+  background-color: #f1e0e2;
+  margin-top: 10px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.tracinho-sobre {
+  width: 6px;
+  height: 150px;
+  border-radius: 20px;
+  background: #a98c8f;
+  margin-left: 40px;
+  align-self: center;
+}
+
+.sobre-textos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.sobre-titulo {
+  font-size: 32px;
+  color: #795f61;
+}
+
+.textinhos-sobre {
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #ab8a8e;
+  cursor: pointer;
+}
+
+.nossa-empresa {
+  color: #ab8a8e;
+}
+
+.relacao-investidores {
+  color: #ab8a8e;
+}
+
+.sustentabilidade {
+  color: #ab8a8e;
+}
+
+.blog {
+  color: #ab8a8e;
+}
+
+.nossa-empresa:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.sustentabilidade:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.relacao-investidores:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.blog:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.tracinho-media {
+  width: 6px;
+  height: 150px;
+  border-radius: 20px;
+  background: #a98c8f;
+  margin-left: 70px;
+  align-self: center;
+}
+
+.encontre-nos {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.media-titulo {
+  font-size: 32px;
+  color: #795f61;
+}
+
+.social-medias {
+  display: flex;
+  flex-direction: column;
+}
+
+.instagram {
+  display: flex;
+}
+
+.instagram-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.texto-instagram {
+  font-family: "Inter", sans-serif;
+  color: #ab8a8e;
+  text-decoration: underline;
+  align-self: center;
+  margin-left: 3px;
+}
+
+.texto-instagram:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.facebook {
+  display: flex;
+}
+
+.facebook {
+  width: 27px;
+  height: 27px;
+  margin-left: 1px;
+}
+
+.texto-facebook {
+  font-family: "Inter", sans-serif;
+  color: #ab8a8e;
+  text-decoration: underline;
+  align-self: center;
+  margin-left: 3px;
+}
+
+.texto-facebook:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.youtube {
+  display: flex;
+}
+
+.youtube-logo {
+  width: 26px;
+  height: 26px;
+  margin-left: 2px;
+}
+
+.texto-youtube {
+  font-family: "Inter", sans-serif;
+  color: #ab8a8e;
+  text-decoration: underline;
+  align-self: center;
+  margin-left: 3px;
+}
+
+.texto-youtube:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.linkedin {
+  display: flex;
+}
+
+.linkedin-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.texto-linkedin {
+  font-family: "Inter", sans-serif;
+  color: #ab8a8e;
+  text-decoration: underline;
+  align-self: center;
+  margin-left: 1px;
+}
+
+.texto-linkedin:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.tracinho-temporadas {
+  width: 6px;
+  height: 150px;
+  border-radius: 20px;
+  background: #a98c8f;
+  margin-left: 70px;
+  align-self: center;
+}
+
+.temporadas-textos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.temporadas-titulo {
+  font-size: 32px;
+  color: #795f61;
+}
+
+.textinhos-temporadas {
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #ab8a8e;
+  cursor: pointer;
+}
+
+.dia-do-consumidor {
+  color: #ab8a8e;
+}
+
+.dia-das-mulheres {
+  color: #ab8a8e;
+}
+
+.dia-das-maes {
+  color: #ab8a8e;
+}
+
+.dia-da-moda {
+  color: #ab8a8e;
+}
+
+.dia-do-consumidor:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.dia-das-maes:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.dia-das-mulheres:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.dia-da-moda:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.tracinho-contato {
+  width: 6px;
+  height: 150px;
+  border-radius: 20px;
+  background: #a98c8f;
+  margin-left: 70px;
+  align-self: center;
+}
+
+.temporadas-contato {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.contato-titulo {
+  font-size: 32px;
+  color: #795f61;
+}
+
+.textinhos-contato {
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #ab8a8e;
+  cursor: pointer;
+}
+
+.comprar {
+  color: #ab8a8e;
+}
+
+.vender {
+  color: #ab8a8e;
+}
+
+.solucao-de-problemas {
+  color: #ab8a8e;
+}
+
+.seguranca {
+  color: #ab8a8e;
+}
+
+.comprar:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.solucao-de-problemas:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.vender:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.seguranca:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.informacoes-empresa {
+  height: 86px;
+  background-color: #fff6f6;
+  align-content: center;
+  margin-left: 10px;
+}
+
+.informacoes-textos {
+  display: flex;
+  flex-direction: column;
+  color: #b1979a;
+}
+
+.textinhos {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  gap: 10px;
+}
+
+.trabalhe-conosco {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.termos-e-condicoes {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.promocoes {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.acessibilidade {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.seguros {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.privacidade {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.afiliados {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.presentes {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.trabalhe-conosco:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.termos-e-condicoes:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.promocoes:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.acessibilidade:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.seguros:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.privacidade:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.afiliados:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.presentes:hover {
+  text-decoration-color: #795f61;
+  color: #795f61;
+}
+
+.copywright {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.cnpj {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-top: 3px;
+}
