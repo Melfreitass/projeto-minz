@@ -7,6 +7,7 @@
 
 body {
     background-color: #fbfbfb;
+
 }
 
 header {
@@ -24,7 +25,6 @@ main {
 .parte1, .parte2 {
     display: flex;
     gap: 3vh;
-
     justify-content: center;
 }
 
@@ -41,6 +41,7 @@ main {
     text-align: center;
     justify-content: center;
 }
+
 
 .titulo-verao{
     font-size: 9vw;
@@ -91,23 +92,42 @@ main {
 }
 
 #look-semana {
-    width: 50%;
+    flex: 1;
     max-width: 667px;
     aspect-ratio: 667/444;
-    background-color: #A98C8F; ;
+    background-color: #A98C8F; 
     border-radius: 2vh;
+    position: relative;
     display: flex;
-    text-align:center;
-    justify-content: center;
     overflow: hidden;
 }
 
-.look01 {
-    margin-right: 4vh;
+.look01, .look02 {
+    width: 50%;           
+    height: 100%;
+    object-fit: cover;
 }
 
 .texto-look {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1vh;
+    font-size: 3vh;
     font-weight: bold;
-    margin-top: 14vh;
-    position:absolute;
+}
+
+#logo {
+    width: 50%;
+    max-width: 345px;
+    aspect-ratio: 345/444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo {
+    width: 60%;
+    max-width: 60%;
+    height: auto;
 }
