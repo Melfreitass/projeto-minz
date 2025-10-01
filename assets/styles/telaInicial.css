@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/*links*/
+.links {
+    text-decoration: none;
+}
+
 /*header*/
 
 .barra-menu {
@@ -149,6 +154,7 @@ main {
     display: flex;
     text-align: center;
     justify-content: center;
+    transition: transform 0.1 ease;
 }
 
 
@@ -177,6 +183,11 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
+    transition: transform 0.2 ease;
+}
+
+#colecaoVerao:hover, #monteSeuLook:hover, #promocao:hover, #look-semana:hover {
+  transform: scale(1.02);
 }
 
 .link-monteSeuLook {
@@ -203,6 +214,7 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
+    transition: transform 0.1 ease;
 }
 
 #look-semana {
@@ -214,6 +226,7 @@ main {
     position: relative;
     display: flex;
     overflow: hidden;
+    transition: transform 0.1 ease;
 }
 
 .look01, .look02 {
