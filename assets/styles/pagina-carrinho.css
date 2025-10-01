@@ -446,17 +446,7 @@
   transform: translateY(-2px);
 }
 
-.botao-cartao {
-  margin-top: 8px;
-  justify-self: center;
-}
-
-.botao-desconto {
-  margin-top: 8px;
-  justify-self: center;
-}
-
-.botao-entrega {
+.botao-cartao, .botao-desconto, .botao-entrega {
   margin-top: 8px;
   justify-self: center;
 }
@@ -498,38 +488,11 @@
   cursor: pointer;
 }
 
-.nossa-empresa {
+.nossa-empresa, .relacao-investidores, .sustentabilidade, .blog {
   color: #ab8a8e;
 }
 
-.relacao-investidores {
-  color: #ab8a8e;
-}
-
-.sustentabilidade {
-  color: #ab8a8e;
-}
-
-.blog {
-  color: #ab8a8e;
-}
-
-.nossa-empresa:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.sustentabilidade:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.relacao-investidores:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.blog:hover {
+.nossa-empresa:hover, .sustentabilidade:hover, .relacao-investidores:hover, .blog:hover {
   text-decoration-color: #795f61;
   color: #795f61;
 }
@@ -676,38 +639,11 @@
   cursor: pointer;
 }
 
-.dia-do-consumidor {
+.dia-do-consumidor, .dia-das-mulheres, .dia-das-maes, .dia-da-moda {
   color: #ab8a8e;
 }
 
-.dia-das-mulheres {
-  color: #ab8a8e;
-}
-
-.dia-das-maes {
-  color: #ab8a8e;
-}
-
-.dia-da-moda {
-  color: #ab8a8e;
-}
-
-.dia-do-consumidor:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.dia-das-maes:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.dia-das-mulheres:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.dia-da-moda:hover {
+.dia-do-consumidor:hover, .dia-das-mulheres:hover, .dia-das-maes:hover, .dia-da-moda:hover {
   text-decoration-color: #795f61;
   color: #795f61;
 }
@@ -740,38 +676,11 @@
   cursor: pointer;
 }
 
-.comprar {
+.comprar, .vender, .solucao-de-problemas, .seguranca {
   color: #ab8a8e;
 }
 
-.vender {
-  color: #ab8a8e;
-}
-
-.solucao-de-problemas {
-  color: #ab8a8e;
-}
-
-.seguranca {
-  color: #ab8a8e;
-}
-
-.comprar:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.solucao-de-problemas:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.vender:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.seguranca:hover {
+.comprar:hover, .solucao-de-problemas:hover, .vender:hover, .seguranca:hover {
   text-decoration-color: #795f61;
   color: #795f61;
 }
@@ -796,82 +705,12 @@
   gap: 10px;
 }
 
-.trabalhe-conosco {
+.trabalhe-conosco, .termos-e-condicoes, .promocoes, .acessibilidade, .seguros, .privacidade, .afiliados, .presentes {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.termos-e-condicoes {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.promocoes {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.acessibilidade {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.seguros {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.privacidade {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.afiliados {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.presentes {
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.trabalhe-conosco:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.termos-e-condicoes:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.promocoes:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.acessibilidade:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.seguros:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.privacidade:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.afiliados:hover {
-  text-decoration-color: #795f61;
-  color: #795f61;
-}
-
-.presentes:hover {
+.trabalhe-conosco:hover, .termos-e-condicoes:hover, .promocoes:hover, .acessibilidade:hover, .seguros:hover, .privacidade:hover, .afiliados:hover, .presentes:hover {
   text-decoration-color: #795f61;
   color: #795f61;
 }
