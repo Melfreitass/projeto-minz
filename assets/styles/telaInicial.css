@@ -122,7 +122,6 @@
 
 body {
     background-color: #fbfbfb;
-
 }
 
 main {
@@ -178,6 +177,11 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.link-monteSeuLook {
+    text-decoration: none;
+    display: block;
 }
 
 .titulo-monteSeuLook, .titulo-promocao{
