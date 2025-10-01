@@ -127,7 +127,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    gap: 4vh;
     margin: 7vh;
     margin-top: 0;
 }
@@ -157,8 +156,7 @@ main {
     background-color: #D9D9D9;
     border-radius: 2vh;
     margin: 8vh;
-    gap: 8vh;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #titulo-esquerdo, #titulo-direito {
@@ -169,8 +167,30 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#item {
-    width: 50%;
+.itens {
+  height: 65.2vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vh;
+}
+
+
+.item {
+  width: 40%;
+  height: 17vh;
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2vh;
+  cursor: pointer;
+  transition: transform 0.1 ease, box-shadow 0.2 ease;
+}
+
+.item:hover {
+  transform: scale(1.06);
+
 }
 
 /*footer*/
