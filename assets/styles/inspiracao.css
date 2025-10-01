@@ -366,3 +366,84 @@ main {
   font-size: 14px;
   margin-top: 10px;
 }
+
+/*responsividade*/
+
+@media (max-width: 768px) {
+  /*header*/
+  .barra-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px 10px;
+    gap: 8px;
+  }
+
+  .minz-menu {
+    font-size: 16px;
+    margin: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .barra-pesquisa {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 29px;
+    padding: 2px 8px;
+  }
+
+  .barra-pesquisa input [type="text"] {
+    font-size: 13px;
+  }
+  
+  .iconex-menu {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .suporte-icon, .icone-devs, .icone-usuario {
+    width: 24px;
+    height: 24px;
+  }
+
+  .carrinho-compras {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*main*/
+  
+  /*footer*/
+  footer {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sobre-a-empresa {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .tracinho-sobre, .tracinho-media, .tracinho-contato, .tracinho-temporadas {
+    display: none;
+  }
+
+  .informacoes-empresa {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .textinhos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+}

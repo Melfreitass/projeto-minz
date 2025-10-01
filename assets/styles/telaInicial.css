@@ -424,6 +424,7 @@ main {
 /*responsividade*/
 
 @media (max-width: 768px) {
+  /*header*/
   .barra-menu {
     display: flex;
     flex-direction: row;
@@ -469,6 +470,7 @@ main {
     height: 20px;
   }
 
+  /*main*/
   main {
     margin: 3vh 2vw;
     gap: 2vh;
@@ -505,6 +507,7 @@ main {
     padding: 0 5px;
   }
 
+  /*footer*/
   footer {
     flex-direction: column;
     padding: 20px;
