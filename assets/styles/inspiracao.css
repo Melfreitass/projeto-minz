@@ -417,7 +417,37 @@ main {
   }
 
   /*main*/
-  
+  main {
+    margin: 2vh;
+  }
+
+  .faixa-titulo {
+    font-size: 5vw;
+    padding: 1vh 0;
+    text-align: center;
+  }
+
+  .parte2 {
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+    gap: 3vh;
+  }
+
+  .lado-direito, .lado-esquerdo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 2vh;
+  }
+
+  #titulo-esquerdo, #titulo-direito {
+    font-size: 4.5vw;
+    height: auto;
+    padding: 1vh 0;
+  }
+
+
   /*footer*/
   footer {
     flex-direction: column;
