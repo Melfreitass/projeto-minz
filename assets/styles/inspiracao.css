@@ -447,6 +447,16 @@ main {
     padding: 1vh 0;
   }
 
+  .itens {
+    height: auto;
+    gap: 2vh;
+  }
+
+  .item, .item1, .item2, .item3, .item4, .item5 {
+    width: 45%;
+    height: 12vh;
+    font-size: 6vw;
+  }
 
   /*footer*/
   footer {
