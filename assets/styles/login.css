@@ -31,11 +31,11 @@ main {
 }
 
 #caixa-email {
-  border-radius: 10px;
-  width: 450px;
-  height: 460px;
+  border-radius: 1vh;
+  width: 60vh;
+  height: 63vh;
   flex-shrink: 0;
-  border-radius: 20px;
+  border-radius: 2vh;
   background: #dedfe0b2;
   margin-top: -32vh;
   display: flex;
