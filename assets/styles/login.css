@@ -84,3 +84,48 @@ main {
   font-size: 22px;
 }
 
+@media (max-width: 768px) {
+  header {
+    height: 10vh;
+  }
+
+  .logo {
+    height: 7vh;
+  }
+
+  .imagem-fundo{
+    height: 40vh;
+    background-position: center;
+  }
+
+  #caixa-email {
+    width: 85%;
+    height: auto;
+    margin-top: -20vh;
+    padding: 4vh 2vh;
+  }
+
+  .titulo-login {
+    font-size: 3vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: center;
+  }
+
+  .emailLogin input, .senhaLogin input, .telefoneLogin input {
+    width: 90%;
+    height: 5vh;
+    font-size: 2vh;
+  }
+
+  .botao {
+    width: 90%;
+    height: 6vh;
+    font-size: 2vh;
+  }
+
+  .link {
+    font-size: 2vh;
+  }
+}
+
