@@ -79,3 +79,43 @@ header {
     transform: scale(1.02);
 }
 
+@media (max-width: 768px) {
+    header {
+        height: 10vh;
+    }
+
+    .cadastro {
+        height: 40vh;
+        background-position: center;
+    }
+
+    #caixa-email {
+        width: 85%;
+        height: auto;
+        margin-top: -20vh;
+        padding: 4vh 2vh;
+    }
+
+    .titulo-login {
+        font-size: 3vh;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        text-align: center;
+    }
+
+    .emailCadastro input, .senhaCadastro input, .telefoneCadastro input {
+        width: 90%;
+        height: 5vh;
+        font-size: 2vh;
+    }
+
+    .caixa-botao {
+        width: 90%;
+        height: 6vh;
+        font-size: 2vh;
+    }
+
+    .botao {
+        font-size: 2vh;
+    }
+}
