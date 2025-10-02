@@ -842,7 +842,7 @@
 }
 
 .manequins {
-  width: 290px;
+  width: 320px;
   height: 200px;
   margin-right: 5px;
 }
@@ -853,23 +853,23 @@
 }
 
 .arara-de-roupas {
-  width: 390px;
-  height: 100px;
+  width: 290px;
+  height: 200px;
 }
 
 .moda-manequins {
-  width: 120px;
-  height: 98px;
+  visibility: hidden;
+  display: none;
 }
 
 .modelos-book {
-  width: 130px;
-  height: 98px;
+  visibility: hidden;
+  display: none;
 }
 
-.desflile {
-  width: 150px;
-  height: 98px;
+.desfile {
+  visibility: hidden;
+  display: none;
 }
 
   /*footer*/
