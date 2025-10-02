@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*links*/
+.links {
+    text-decoration: none;
+}
+
+/*header*/
+
+.barra-menu {
+  width: 100%;
+  height: 93px;
+  background-color: #0c0000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.minz-menu {
+  margin: 17px;
+  margin-left: 30px;
+  font-size: 25px;
+  color: white;
+  font-family: "Gloock", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navegacao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.suporte-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.seta-menu {
+  width: 20px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.barra-pesquisa {
+  background-color: #0c0000;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  width: 544px;
+}
+
+.barra-pesquisa input[type="text"] {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  padding-right: 35px;
+}
+
+.barra-pesquisa input[type="text"]::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+.iconex-menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icone-devs {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.carrinho-compras {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.icone-usuario {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.secoes {
+  font-size: 15px;
+  width: 100%;
+  height: 55px;
+  background-color: #e5c9cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.acessorios,
+.moda-feminina,
+.moda-masculina,
+.perfumes,
+.infantil {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 7vh;
+    margin-top: 0;
+}
+
+.faixa-titulo {
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color:#9B9797;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.parte2 {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 7vh;
+    margin-top: 0;
+    gap: 15vh;
+    margin-bottom: 0;
+}
+
+.lookCompleto {
+    margin-top: 3vh;
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 2vh;
+    background-color: #9B9797;
+}
+
+.lookFeminino {
+    object-fit: cover;
+    width: 97%;
+    height: 97%;
+    border-radius: 2vh;
+}
