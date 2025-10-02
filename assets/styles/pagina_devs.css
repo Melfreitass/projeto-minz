@@ -125,7 +125,7 @@
   background: #a98c8f;
   justify-items: center;
   margin: auto;
-  margin-top: 7px;
+  margin-top: 30px;
 }
 
 .titulo-nosso-time {
@@ -263,7 +263,7 @@
   border-radius: 100%;
 }
 
-.titulo-ana{
+.titulo-ana {
   margin-left: 20px;
   margin-top: 30px;
   font-size: 30px;
@@ -700,4 +700,222 @@
   font-family: "Inter", sans-serif;
   font-size: 14px;
   margin-top: 3px;
+}
+
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+/* Valores da empresa */
+.banner-moda {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+
+/*responsividade*/
+
+@media (max-width: 768px) {
+  /*header*/
+  .barra-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px 10px;
+    gap: 8px;
+  }
+
+  .minz-menu {
+    font-size: 16px;
+    margin: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .barra-pesquisa {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 29px;
+    padding: 2px 8px;
+  }
+
+  .barra-pesquisa input [type="text"] {
+    font-size: 13px;
+  }
+
+  .iconex-menu {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .suporte-icon,
+  .icone-devs,
+  .icone-usuario {
+    width: 24px;
+    height: 24px;
+  }
+
+  .carrinho-compras {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*footer*/
+  footer {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sobre-a-empresa {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .tracinho-sobre,
+  .tracinho-media,
+  .tracinho-contato,
+  .tracinho-temporadas {
+    display: none;
+  }
+
+  .informacoes-empresa {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .textinhos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  /* Nosso time */
+  .nosso-time {
+    width: 98%;
+    height: 160px;
+  }
+
+  .titulo-nosso-time {
+    margin-left: 15px;
+    padding-top: 6px;
+    font-size: 40px;
+  }
+
+  .texto-nosso-time {
+    margin-left: 15px;
+    padding-right: 15px;
+  }
+
+  .texto-manuela,
+  .texto-julia,
+  .texto-nathalia,
+  .texto-ana,
+  .texto-melissa {
+    padding-right: 15px;
+  }
 }
