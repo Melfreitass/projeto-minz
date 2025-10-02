@@ -60,9 +60,6 @@ main {
   transform: transform 0.3 ease;
 }
 
-.emailLogin input:hover, .senhaLogin input:hover, .telefoneLogin input:hover {
-  transform: scale(1.02);
-}
 
 .botao {
   width: 390px;
@@ -74,6 +71,11 @@ main {
   align-items: center;
   justify-content: center;
   margin-bottom: 3vh;
+  transform: transform 0.3 ease;
+}
+
+.emailLogin input:hover, .senhaLogin input:hover, .telefoneLogin input:hover, .botao:hover {
+  transform: scale(1.02);
 }
 
 .link {
@@ -82,7 +84,3 @@ main {
   font-size: 22px;
 }
 
-.link p{
-    text-align: center;
-    padding-top: 10px;
-}
