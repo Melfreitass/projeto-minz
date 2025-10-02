@@ -14,9 +14,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     width: 100%;
     height: 12vh;
+    background-color: #FBFBFB;
 }
 
 .cadastro {
@@ -28,29 +28,54 @@ header {
 
 
 #caixa-email {
-    width: 450px;
-    height: 460px;
+    width: 60vh;
+    height: 63vh;
     background-color: #dedfe0b2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: baseline;
-    border-radius: 20px;
+    border-radius: 2vh;
     flex-shrink: 0;
     margin-top: -32vh;
 }
 
-#caixa-senha {
-    width: 396px;
-    height: 57px;
-    flex-shrink: 0;
+.titulo-login {
+  margin-top: 7vh;
+  font-size: 4vh;
+  font-weight: bold;
+  margin-bottom: 7vh;
 }
 
-#caixa-telefone {
-    width: 396px;
-    height: 57px;
-    flex-shrink:0;
+.emailCadastro input, .senhaCadastro input, .telefoneCadastro input {
+    margin-bottom: 4vh;
+    border-radius: 1vh;
+    width: 35vh;
+    height: 4.5vh;
+    border: 0;
+    transform: transform 0.3 ease;
 }
-.botao-cadastro {
-   
+
+.caixa-botao {
+  width: 390px;
+  height: 60px;
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vh;
+  transform: transform 0.3 ease;
 }
+
+.botao {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+.emailCadastro input:hover, .senhaCadastro input:hover, .telefoneCadastro input:hover, .caixa-botao:hover {
+    transform: scale(1.02);
+}
+
