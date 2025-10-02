@@ -7,48 +7,55 @@
     <link rel="stylesheet" href="../assets/styles/login.css" />
   </head>
   <body>
-    <div class = "logo">
-        <img src="../assets/images/logo.png" alt="Logo Minz" />
-    </div>
-    <header class="login">
+    <header>
+      <div class = "logo">
+        <img src="../assets/images/logo.png" alt="Logo Minz" class = "logo" />
+     </div>
+    </header>
+
+    <main>
+    <section class="imagem-fundo">
       <img
         src="../assets/images/fundo.png"
         alt="Fundo branco com roupas, bolsas, acessórios e sapatos login "
         class="fundo-login"
       />
+    </section>
 
-      <section id="caixa-email">
-        <form action="#">
-          <div class="emailLogin">
-            <label for="EMAIL"></label>
-            <input type="text" name="EMAIL" placeholder="EMAIL" required />
-          </div>
+    <section id="caixa-email">
+      <form action="#">
+        <div class="emailLogin">
+          <label for="EMAIL"></label>
+          <input type="text" name="EMAIL" placeholder="EMAIL" required />
+        </div>
 
-          <div class="senhaLogin">
-            <label for="SENHA"></label>
-            <input type="password" name="SENHA" placeholder="SENHA" required />
-          </div>
+        <div class="senhaLogin">
+          <label for="SENHA"></label>
+          <input type="password" name="SENHA" placeholder="SENHA" required />
+        </div>
 
-          <div class="telefoneLogin">
-            <label for="TELEFONE"></label>
-            <input
+        <div class="telefoneLogin">
+          <label for="TELEFONE"></label>
+          <input
               type="text"
               name="TELEFONE"
               placeholder="TELEFONE"
               required
-            />
-          </div>
+           />
+        </div>
  
-          <div class= "botao">
+        <div class= "botao">
         <a href="../pages/telaInicial.html" class="link">
           Entrar
         </a>
-      </div>
-      <div>
+        </div>
+
+        <div>
         <a href="../pages/login.html" class="botao02">Não tem uma conta? cadastre-se</a>
-      </div>
-        
+        </div>   
       </section>
-    </header>
+
+      <section class = "parte-baixo"></section>
+    </main>
   </body>
 </html>
