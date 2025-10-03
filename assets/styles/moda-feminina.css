@@ -148,20 +148,31 @@ main {
     height: 100vh;
     margin: 7vh;
     margin-top: 0;
-    gap: 15vh;
+    gap: 5vh;
     margin-bottom: 0;
+}
+
+.blocoLookCompleto {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  flex-direction: column;
+  gap: 3vh;
 }
 
 .lookCompleto {
     margin-top: 3vh;
     height: 70vh;
-    width: 40%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     border-radius: 2vh;
     background-color: #9B9797;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.644);
+    cursor: pointer;
 }
 
 .lookFeminino {
@@ -170,3 +181,64 @@ main {
     height: 97%;
     border-radius: 2vh;
 }
+
+.textoLookCompleto {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.itens-compra {
+    margin-top: 3vh;
+    height: 70vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vh;
+}
+
+.item {
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: transform 0.1 ease;
+    gap: 1vh;
+}
+
+.foto-item {
+    width: 100%;
+    height: 38vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 1vh;
+    background-color:#9B9797;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.644);
+}
+
+.img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 1vh;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+}
+
+
+.item:hover {
+  transform: scale(1.02);
+}
+
