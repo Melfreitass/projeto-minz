@@ -39,7 +39,6 @@
   cursor: pointer;
 }
 
-
 .seta-menu {
   width: 20px;
   height: 25px;
@@ -775,12 +774,6 @@
     width: 20px;
     height: 20px;
   }
-
-  /*Carrinho*/
-  .carrinho-usuario {
-    flex-direction: column;
-    align-items: center;
-  }
   
   /*footer*/
   footer {
@@ -798,7 +791,7 @@
   .tracinho-sobre, .tracinho-media, .tracinho-contato, .tracinho-temporadas {
     display: none;
   }
-
+  
   .informacoes-empresa {
     text-align: center;
     margin: 0;
@@ -809,5 +802,47 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 5px;
+  }
+
+  /*Carrinho*/
+  .carrinho-usuario {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .itens-carrinho {
+    width: 100%;
+  }
+
+  .macacao,
+  .casaco,
+  .vestido {
+    flex-direction: column; /* coloca a imagem em cima e info embaixo */
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+ .info-macacao,
+  .info-casaco,
+  .info-vestido {
+    margin: 10 10px 20px 10px;
+  }
+
+.preco-unidade, .preco, .unidades {
+  margin-left: 130px;
+}
+
+.texto-unidade,
+  .texto-preco,
+  .texto-descricao,
+  .preco-unidade,
+  .unidades,
+  .preco,
+  .descricao {
+    font-size: 16px;
   }
 }
