@@ -904,3 +904,9 @@
     gap: 5px;
   }
 }
+
+/* Direcionamento de páginas */
+.links {
+    text-decoration: none;
+    color: inherit;
+}
