@@ -156,6 +156,7 @@ main {
     text-align: center;
     justify-content: center;
     transition: transform 0.1 ease;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.644);
 }
 
 
@@ -185,6 +186,7 @@ main {
     justify-content: center;
     text-align: center;
     transition: transform 0.2 ease;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.644);
 }
 
 #colecaoVerao:hover, #monteSeuLook:hover, #promocao:hover, #look-semana:hover {
@@ -216,6 +218,7 @@ main {
     justify-content: center;
     text-align: center;
     transition: transform 0.1 ease;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.644);
 }
 
 #look-semana {
@@ -228,6 +231,7 @@ main {
     display: flex;
     overflow: hidden;
     transition: transform 0.1 ease;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.644);
 }
 
 .look01, .look02 {
