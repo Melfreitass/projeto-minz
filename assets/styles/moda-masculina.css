@@ -404,3 +404,134 @@ main {
   margin-top: 10px;
 }
 
+/*responsividade*/
+
+@media (max-width: 768px) {
+  /*header*/
+  .barra-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px 10px;
+    gap: 8px;
+  }
+
+  .minz-menu {
+    font-size: 16px;
+    margin: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .barra-pesquisa {
+    flex: 0 1 200px;
+    max-width: 200px;
+    height: 29px;
+    padding: 2px 8px;
+  }
+
+  .barra-pesquisa input [type="text"] {
+    font-size: 13px;
+  }
+  
+  .iconex-menu {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .suporte-icon, .icone-devs, .icone-usuario {
+    width: 24px;
+    height: 24px;
+  }
+
+  .carrinho-compras {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*main*/
+
+  .faixa-titulo {
+    font-size: 2vh;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .parte2 {
+    flex-direction: column;
+    height: auto;
+    margin: 3vh 2vh;
+    gap: 3vh;
+  }
+
+  .blocoLookCompleto {
+    height: auto;
+    width: 100%;
+    gap: 2vh;
+  }
+
+  .lookCompleto {
+    height: 45vh;
+    width: 100%;
+    margin-top: 1vh;
+  }
+
+  .textoLookCompleto {
+    font-size: 2.5vh;
+    text-align: center;
+  }
+
+  .itens-compra {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 3vh;
+  }
+
+  .item {
+    width: 90%;
+    height: auto;
+  }
+
+  .foto-item {
+    height: 30vh;
+  }
+
+  .texto {
+    font-size: 2vh;
+  }
+
+  /*footer*/
+  footer {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sobre-a-empresa {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+
+  .tracinho-sobre, .tracinho-media, .tracinho-contato, .tracinho-temporadas {
+    display: none;
+  }
+
+  .informacoes-empresa {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .textinhos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+}
