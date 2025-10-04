@@ -746,50 +746,40 @@
 @media (max-width: 768px) {
   /*header*/
   .barra-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 5px 10px;
-    gap: 8px;
+    height: 10vh;
   }
 
   .minz-menu {
-    font-size: 16px;
-    margin: 0;
+    left: 3vh;
+    font-size: 4vh;
     white-space: nowrap;
-    flex-shrink: 0;
   }
 
   .barra-pesquisa {
-    flex: 0 1 200px;
-    max-width: 200px;
-    height: 29px;
-    padding: 2px 8px;
+    max-width: 37vh;
+    height: 5vh;
+    padding: 2vh 2vh;
+    margin-right: 13vh;
   }
 
-  .barra-pesquisa input [type="text"] {
-    font-size: 13px;
+  .icones-menu {
+    right: 3vh;
   }
 
-  .iconex-menu {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex-shrink: 0;
+  .suporte-icon {
+    width: 6.3vh;
+    height: 5.7vh;
   }
 
-  .suporte-icon,
   .icone-devs,
   .icone-usuario {
-    width: 24px;
-    height: 24px;
+    width: 5vh;
+    height: 5vh;
   }
 
   .carrinho-compras {
-    width: 20px;
-    height: 20px;
+    width: 4vh;
+    height: 4vh;
   }
 
   /*Suporte*/
