@@ -747,22 +747,26 @@
   /*header*/
   .barra-menu {
     height: 10vh;
+    justify-content: space-between;
+    padding: 0 3vh;
   }
 
   .minz-menu {
+    position: static;
     left: 3vh;
     font-size: 4vh;
     white-space: nowrap;
   }
 
   .barra-pesquisa {
+    position: static;
     max-width: 37vh;
     height: 5vh;
     padding: 2vh 2vh;
-    margin-right: 13vh;
   }
 
   .icones-menu {
+    position: static;
     right: 3vh;
   }
 
