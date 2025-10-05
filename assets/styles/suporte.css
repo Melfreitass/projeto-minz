@@ -100,14 +100,17 @@
 }
 
 .secoes {
-  font-size: 15px;
+  font-family: 'Inter', serif;
+  font-size: 2vh;
+  font-weight: 1;
+  letter-spacing: 0.1vh;
   width: 100%;
-  height: 55px;
+  height: 7vh;
   background-color: #e5c9cc;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 3vh;
 }
 
 .acessorios,
@@ -121,11 +124,11 @@
 
 /* Suporte Section */
 .quadrado-titulo {
-  width: 300px;
-  height: 50px;
+  width: 60vh;
+  height: 10vh;
   background-color: #d9d9d9;
-  border-radius: 20px;
-  margin-top: 30px;
+  border-radius: 5vh;
+  margin-top: 6vh;
   justify-self: center;
   justify-content: center;
   align-items: center;
@@ -137,34 +140,33 @@
 .titulo-suporte {
   font-family: "Gloock", serif;
   font-weight: 1;
-  font-size: 25px;
+  font-size: 4vh;
   color: #0c0000;
-  letter-spacing: 1px;
+  letter-spacing: 0.1vh;
 }
 
 .subtitulo-suporte {
   font-family: "Gloock", serif;
   font-weight: 1;
-  font-size: 20px;
+  font-size: 3vh;
   color: #847878;
-  margin-top: 10px;
+  margin-top: 1vh;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 0.1vh;
 }
 
 .containers-suporte {
   display: flex;
-  margin-top: 50px;
+  margin-top: 5vh;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  gap: 10vh;
 }
 
-.container-email {
-  width: 250px;
-  height: 150px;
+.container-email, .container-telefone, .container-chat {
+  width: 25vh;
+  height: 15vh;
   background-color: transparent;
-  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,97 +174,52 @@
 }
 
 .icone-email {
-  width: 61px;
-  height: 61px;
+  width: 8vh;
+  height: 8vh;
 }
 
-.texto-email {
+.texto-email, .texto-telefone, .texto-chat {
   font-family: "Inter", serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 3vh;
   color: #0c0000;
   text-align: center;
-  margin-top: 10px;
-  letter-spacing: 1px;
+  margin-top: 1vh;
+  letter-spacing: 0.1vh;
+  white-space: nowrap
 }
 
-.endereco-email {
+.endereco-email, .texto-numero, .texto-insta {
   font-family: "Inter", serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 2vh;
   color: #0c0000;
   text-align: center;
-  letter-spacing: 1px;
-}
-
-.container-telefone {
-  width: 250px;
-  height: 150px;
-  background-color: transparent;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.icone-telefone {
-  width: 50px;
-  height: 50px;
+  letter-spacing: 0.1vh;
+  white-space: nowrap
 }
 
 .texto-telefone {
-  font-family: "Inter", serif;
-  font-weight: 500;
-  font-size: 18px;
-  color: #0c0000;
-  text-align: center;
-  margin-top: 20px;
-  letter-spacing: 1px;
+  margin-top: 2.1vh;
 }
 
-.texto-numero {
-  font-family: "Inter", serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #0c0000;
-  text-align: center;
-  letter-spacing: 1px;
+.texto-chat {
+  margin-bottom: 3.6vh;
 }
 
-.container-chat {
-  width: 250px;
-  height: 150px;
-  background-color: transparent;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.texto-insta {
+  position: absolute;
+  margin-top: 12.5vh;
+}
+
+.icone-telefone {
+  width: 7vh;
+  height: 7vh;
 }
 
 .icone-chat {
   width: 61px;
   height: 61px;
-}
-
-.texto-chat {
-  font-family: "Inter", serif;
-  font-weight: 500;
-  font-size: 18px;
-  color: #0c0000;
-  margin-top: 10px;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-.texto-insta {
-  font-family: "Inter", serif;
-  font-weight: 400;
-  font-size: 16px;
-  color: #0c0000;
-  text-align: center;
-  letter-spacing: 1px;
 }
 
 .images {
@@ -788,7 +745,7 @@
 
   /*Suporte*/
 .containers-suporte {
-  gap: 0px;
+  gap: 3vh;
 }
 
 .icone-email {
@@ -806,32 +763,29 @@
   height: 45px;
 }
 
-.texto-chat {
+.texto-chat, .texto-email {
   font-size: 15px;
   margin-top: 5px;
+  overflow-wrap: break-word;
+}
+
+.texto-chat {
+  padding-top: 1vh;
 }
 
 .texto-telefone {
   font-size: 15px;
   margin-top: 8px;
+  overflow-wrap: break-word;
 }
 
-.texto-email {
-  font-size: 15px;
-  margin-top: 5px;
-}
-
-.endereco-email {
+.endereco-email, .texto-numero, .texto-insta {
   font-size: 13px;
 }
 
-.texto-insta {
-  font-size: 13px;
-}
-
-.texto-numero {
-  font-size: 13px;
-}
+  .texto-insta {
+    margin-bottom: 1.9vh;
+  }
 
 .images {
   justify-items: center;
@@ -839,19 +793,14 @@
 }
 
 .manequins {
-  width: 320px;
-  height: 200px;
+  width: 550px;
+  height: 300px;
   margin-right: 5px;
 }
 
-.conjunto-imagens {
-  margin-top: 0px;
-  gap: 1px;
-}
-
 .arara-de-roupas {
-  width: 290px;
-  height: 200px;
+  visibility: hidden;
+  display: none;
 }
 
 .moda-manequins {
