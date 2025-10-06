@@ -84,6 +84,11 @@ input::placeholder {
     transform: scale(1.02);
 }
 
+.links {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media (max-width: 768px) {
     header {
         height: 10vh;

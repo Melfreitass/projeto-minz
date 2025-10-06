@@ -88,6 +88,11 @@ input::placeholder {
   font-size: 22px;
 }
 
+.links {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media (max-width: 768px) {
   header {
     height: 10vh;
