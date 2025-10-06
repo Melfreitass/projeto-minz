@@ -100,7 +100,7 @@
 }
 
 .secoes {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 2vh;
   font-weight: 1;
   letter-spacing: 0.1vh;
@@ -163,7 +163,9 @@
   gap: 10vh;
 }
 
-.container-email, .container-telefone, .container-chat {
+.container-email,
+.container-telefone,
+.container-chat {
   width: 25vh;
   height: 15vh;
   background-color: transparent;
@@ -178,7 +180,9 @@
   height: 8vh;
 }
 
-.texto-email, .texto-telefone, .texto-chat {
+.texto-email,
+.texto-telefone,
+.texto-chat {
   font-family: "Inter", serif;
   font-weight: 500;
   font-size: 3vh;
@@ -186,17 +190,19 @@
   text-align: center;
   margin-top: 1vh;
   letter-spacing: 0.1vh;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
-.endereco-email, .texto-numero, .texto-insta {
+.endereco-email,
+.texto-numero,
+.texto-insta {
   font-family: "Inter", serif;
   font-weight: 400;
   font-size: 2vh;
   color: #0c0000;
   text-align: center;
   letter-spacing: 0.1vh;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 .texto-telefone {
@@ -703,28 +709,37 @@
 @media (max-width: 768px) {
   /*header*/
   .barra-menu {
-    height: 10vh;
+    height: auto;
     justify-content: space-between;
-    padding: 0 3vh;
+    align-items: center;
+    padding: 2vh;
+    flex-wrap: wrap;
   }
 
   .minz-menu {
     position: static;
-    left: 3vh;
-    font-size: 4vh;
-    white-space: nowrap;
+    font-size: 3.5vh;
   }
 
   .barra-pesquisa {
-    position: static;
-    max-width: 37vh;
-    height: 5vh;
-    padding: 2vh 2vh;
+    width: 85%;
+    max-width: 35vh;
+    height: 4.5vh;
+    margin: 2vh auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .barra-pesquisa input {
+    width: 100%;
+    height: 100%;
+    font-size: 2vh;
+    padding: 0 1.5vh;
   }
 
   .icones-menu {
     position: static;
-    right: 3vh;
+    gap: 1.5vh;
   }
 
   .suporte-icon {
@@ -744,79 +759,81 @@
   }
 
   /*Suporte*/
-.containers-suporte {
-  gap: 3vh;
-}
+  .secoes {
+    flex-wrap: wrap;
+    font-size: 1.8vh;
+    gap: 2vh;
+    padding: 1.5vh;
+    text-align: center;
+  }
 
-.icone-email {
-  width: 45px;
-  height: 45px;
-}
+  .quadrado-titulo {
+    width: 90%;
+    height: auto;
+    padding: 2vh;
+    font-size: 3.5vh;
+    margin-top: 4vh;
+  }
 
-.icone-telefone {
-  width: 42px;
-  height: 42px;
-}
+  .subtitulo-suporte {
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    padding: 0 2vh;
+  }
 
-.icone-chat {
-  width: 45px;
-  height: 45px;
-}
+  .containers-suporte {
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 4vh;
+  }
 
-.texto-chat, .texto-email {
-  font-size: 15px;
-  margin-top: 5px;
-  overflow-wrap: break-word;
-}
+  .container-email,
+  .container-chat,
+  .container-telefone {
+    width: 80%;
+    height: auto;
+  }
 
-.texto-chat {
-  padding-top: 1vh;
-}
+  .icone-email,
+  .icone-telefone,
+  .icone-chat {
+    width: 7vh;
+    height: 7vh;
+  }
 
-.texto-telefone {
-  font-size: 15px;
-  margin-top: 8px;
-  overflow-wrap: break-word;
-}
+  .texto-chat,
+  .texto-email,
+  .texto-telefone {
+    font-size: 2.2vh;
+    margin-top: 1vh;
+    overflow-wrap: break-word;
+  }
 
-.endereco-email, .texto-numero, .texto-insta {
-  font-size: 13px;
-}
+  .endereco-email,
+  .texto-numero,
+  .texto-insta {
+    font-size: 2vh;
+  }
 
   .texto-insta {
     margin-bottom: 1.9vh;
   }
 
-.images {
-  justify-items: center;
-  align-items: center;
-}
+  .images {
+    justify-items: center;
+    align-items: center;
+  }
 
-.manequins {
-  width: 550px;
-  height: 300px;
-  margin-right: 5px;
-}
+  .manequins {
+    width: 90%;
+    height: auto;
+    margin-left: 5vh;
+  }
 
-.arara-de-roupas {
-  visibility: hidden;
-  display: none;
-}
-
-.moda-manequins {
-  visibility: hidden;
-  display: none;
-}
-
-.modelos-book {
-  visibility: hidden;
-  display: none;
-}
-
-.desfile {
-  visibility: hidden;
-  display: none;
-}
+  .arara-de-roupas, .modelos-book, .moda-manequins, .desfile {
+    visibility: hidden;
+    display: none;
+  }
 
   /*footer*/
   footer {
@@ -853,6 +870,6 @@
 
 /* Direcionamento de páginas */
 .links {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
