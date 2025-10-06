@@ -66,6 +66,7 @@
 }
 
 .icones-menu {
+  flex-wrap: wrap;
   position: absolute;
   right: 5vh;
   display: flex;
@@ -175,7 +176,7 @@
   align-items: center;
 }
 
-.icone-email {
+.icone-email, .icone-chat {
   width: 8vh;
   height: 8vh;
 }
@@ -223,22 +224,17 @@
   height: 7vh;
 }
 
-.icone-chat {
-  width: 61px;
-  height: 61px;
-}
-
 .images {
-  margin-top: 20px;
+  margin-top: 2vh;
   display: flex;
   justify-content: center;
 }
 
 .manequins {
-  width: 500px;
-  height: 300px;
-  border-radius: 20px;
-  margin-right: 20px;
+  width: 80vh;
+  height: 40vh;
+  border-radius: 5vh;
+  margin-right: 2vh;
 }
 
 .imagens {
@@ -247,36 +243,22 @@
 }
 
 .arara-de-roupas {
-  width: 400px;
-  height: 190px;
-  border-radius: 20px;
+  width: 60vh;
+  height: 12vh;
+  border-radius: 5vh;
 }
 
 .conjunto-imagens {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-top: 8px;
+  margin-top: 1vh;
+  gap: 2vh;
 }
 
 .moda-manequins {
-  width: 130px;
-  height: 102px;
-  border-radius: 20px;
-}
-
-.modelos-book {
-  width: 130px;
-  height: 102px;
-  border-radius: 20px;
-  margin-left: 3px;
-}
-
-.desfile {
-  width: 130px;
-  height: 102px;
-  border-radius: 20px;
-  margin-left: 3px;
+  width: 60vh;
+  height: 27vh;
+  border-radius: 5vh;
 }
 
 .sobre-a-empresa {
@@ -830,7 +812,7 @@
     margin-left: 5vh;
   }
 
-  .arara-de-roupas, .modelos-book, .moda-manequins, .desfile {
+  .arara-de-roupas, .moda-manequins {
     visibility: hidden;
     display: none;
   }
