@@ -54,6 +54,11 @@ header {
     height: 4.5vh;
     border: 0;
     transform: transform 0.3 ease;
+    padding-left: 2vh;
+}
+
+input::placeholder {
+  font-size: 1.8vh;
 }
 
 .caixa-botao {
