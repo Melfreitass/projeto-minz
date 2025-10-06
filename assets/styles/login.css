@@ -33,7 +33,7 @@ main {
 #caixa-email {
   border-radius: 1vh;
   width: 60vh;
-  height: 63vh;
+  height: 57vh;
   flex-shrink: 0;
   border-radius: 2vh;
   background: #dedfe0b2;
@@ -51,7 +51,7 @@ main {
   margin-bottom: 7vh;
 }
 
-.emailLogin input, .senhaLogin input, .telefoneLogin input {
+.emailLogin input, .senhaLogin input {
   margin-bottom: 4vh;
   border-radius: 1vh;
   width: 35vh;
