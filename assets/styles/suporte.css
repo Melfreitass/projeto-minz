@@ -709,11 +709,10 @@
 @media (max-width: 768px) {
   /*header*/
   .barra-menu {
-    height: auto;
+    height: 10vh;
     justify-content: space-between;
     align-items: center;
     padding: 2vh;
-    flex-wrap: wrap;
   }
 
   .minz-menu {
@@ -761,6 +760,7 @@
   /*Suporte*/
   .secoes {
     flex-wrap: wrap;
+    height: auto;
     font-size: 1.8vh;
     gap: 2vh;
     padding: 1.5vh;
