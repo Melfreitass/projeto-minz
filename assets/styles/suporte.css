@@ -66,7 +66,6 @@
 }
 
 .icones-menu {
-  flex-wrap: wrap;
   position: absolute;
   right: 5vh;
   display: flex;
@@ -691,10 +690,11 @@
 @media (max-width: 768px) {
   /*header*/
   .barra-menu {
-    height: 10vh;
+    height: 10vh auto;
     justify-content: space-between;
     align-items: center;
     padding: 2vh;
+    flex-wrap: wrap;
   }
 
   .minz-menu {
@@ -720,7 +720,11 @@
 
   .icones-menu {
     position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 1.5vh;
+    margin-top: 1vh;
   }
 
   .suporte-icon {
