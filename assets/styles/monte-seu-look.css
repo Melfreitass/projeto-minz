@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     background-color: #f5f5f5;
 }
 
@@ -137,16 +136,6 @@ body {
     padding: 20px;
 }
 
-.inspiration-label {
-    background-color: #e8e8e8;
-    padding: 8px 15px;
-    display: inline-block;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    font-size: 14px;
-    color: #666;
-}
-
 .contacts-label {
     background-color: #e8e8e8;
     padding: 8px 15px;
@@ -165,10 +154,13 @@ body {
 }
 
 .section-title {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 30px;
-    color: #333;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color:#9B9797;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .look-container {
