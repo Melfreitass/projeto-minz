@@ -40,14 +40,15 @@ Fundo padrão igual as outras páginas, retângulo cinza com a escrita "Contato 
 Turma: 1TDS2
 Integrantes e páginas realizadas no VS code:
 
-Ana Júlia de Souza: imagens para estilização do site e a página de "Monte seu look",
-Júlia dos Anjos: página de "Cadastro" e README,
-Manuela Freitas: página de "Login" e README,
-Melissa Freitas: página da "Tela inicial", "Index", "Inspiração", "Moda Feminina" e "Moda Masculina", além de auxiliar na página de cadastro e login,
+Ana Júlia de Souza: imagens para estilização do site e a página de "Monte seu look";
+Júlia dos Anjos: página de "Cadastro" e README;
+Manuela Freitas: página de "Login" e README;
+Melissa Freitas: página da "Tela inicial", "Index", "Moda Feminina" e "Moda Masculina", além de auxiliar nas páginas de "cadastro", "login" e "monte seu look";
 Nathalia Nascimento: página de "Suporte", "Carrinho", "Desenvolvedores" e realizou o footer e a header.
 
 Páginas no figma:
-Júlia dos Anjos: Cadastro, moda masculina e auxílio na página de suporte
-Manuela Freitas: Login, moda feminina e auxílio na página inspiração
-Melissa Freitas: Index e inspiração,
-Nathalia Nascimento: páginas devs, suporte e carrinho,
+Júlia dos Anjos: Cadastro, moda masculina e auxílio na página de suporte;
+Manuela Freitas: Login, moda feminina e auxílio na página inspiração;
+Melissa Freitas: Index, inspiração e tela inicial;
+Nathalia Nascimento: páginas devs, suporte e carrinho.
+
