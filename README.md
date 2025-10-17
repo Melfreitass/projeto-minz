@@ -41,8 +41,8 @@ Turma: 1TDS2
 Integrantes e páginas realizadas no VS code:
 
 Ana Júlia de Souza: imagens para estilização do site e a página de "Monte seu look";
-Júlia dos Anjos: página de "Cadastro" e README;
-Manuela Freitas: página de "Login", "modaInfantil" e README;
+Júlia dos Anjos: página de "Cadastro", "Login" e README;
+Manuela Freitas: página de "ModaInfantil", "Perfume" e README;
 Melissa Freitas: página da "Tela inicial", "Index", "Moda Feminina" e "Moda Masculina", além de auxiliar nas páginas de "cadastro", "login" e "monte seu look";
 Nathalia Nascimento: página de "Suporte", "Carrinho", "Desenvolvedores" e realizou o footer e a header.
 
