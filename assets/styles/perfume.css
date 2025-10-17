@@ -153,7 +153,7 @@ main {
     margin-bottom: 0;
 }
 
-.blocoAcessorio {
+.blocoLookCompleto {
   height: 85vh;
   display: flex;
   align-items: center;
@@ -162,7 +162,7 @@ main {
   gap: 3vh;
 }
 
-.acessorios {
+.lookCompleto {
     margin-top: 3vh;
     height: 90vh;
     width: 100%;
@@ -176,14 +176,14 @@ main {
     cursor: pointer;
 }
 
-.acessorio {
+.lookFeminino {
     object-fit: cover;
     width: 97%;
     height: 97%;
     border-radius: 2vh;
 }
 
-.textoAcessorio {
+.textoLookCompleto {
   font-size: 3vh;
   font-weight: bold;
 }
@@ -469,19 +469,19 @@ main {
     gap: 3vh;
   }
 
-  .blocoAcessorio {
+  .blocoLookCompleto {
     height: auto;
     width: 100%;
     gap: 2vh;
   }
 
-  .acessorios {
+  .lookCompleto {
     height: 45vh;
     width: 100%;
     margin-top: 1vh;
   }
 
-  .acessorio {
+  .textoLookCompleto {
     font-size: 2.5vh;
     text-align: center;
   }
